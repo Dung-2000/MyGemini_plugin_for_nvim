@@ -18,11 +18,13 @@ press ':' and type 'GeminiAskCode' or type 'Gemin....' and use tab.<br />
 also you can concat what ever you want to prompt to Gemini after what you selected
 for example:
 inside "" is all pass to Gemini
+```
 "
-```
+...
 the code I selected
-```
+...
 'the text you want to add'
 "
+```
 achieve above you can use <br />
 :GeminiAskCode 'the text you want to add'
