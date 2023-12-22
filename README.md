@@ -26,5 +26,5 @@ the code I selected
 'the text you want to add'
 "
 ```
-achieve above you can use <br />
+achieve above you can select in visaul mode and use <br />
 :GeminiAskCode 'the text you want to add'
