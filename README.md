@@ -16,13 +16,12 @@ press ':' and type 'GeminiAskCode' or type 'Gemin....' and use tab.
 
 also you can concat what ever you want to prompt to Gemini after what you selected
 for example:
-inside """ """ is all pass to Gemini
-"""
+inside "" is all pass to Gemini
+"
 ```
 the code I selected
 ```
-explain the above code
-"""
+'the text you want to add'
+"
 achieve above you can use 
-:GeminiAskCode 'explain the above code'
-by passing other text inside ''
+:GeminiAskCode 'the text you want to add'
