@@ -11,9 +11,9 @@ Gemini.setup({
 ```
 
 # How to use
-using visual mode in neovim with 'v'
-and select the code or text you want to pass to Gemini
-press ':' and type 'GeminiAskCode' or type 'Gemin....' and use tab.
+using visual mode in neovim with 'v'<br />
+and select the code or text you want to pass to Gemini <br />
+press ':' and type 'GeminiAskCode' or type 'Gemin....' and use tab.<br />
 
 also you can concat what ever you want to prompt to Gemini after what you selected
 for example:
@@ -24,5 +24,5 @@ the code I selected
 ```
 'the text you want to add'
 "
-achieve above you can use 
+achieve above you can use <br />
 :GeminiAskCode 'the text you want to add'
