@@ -2,6 +2,7 @@
 asking Gemini through API_KEY inside neovim
 
 # install
+copy the .lua file to your neovim init file and add the followin to init.lua
 ```
 local Gemini = require('Gemini')
 Gemini.setup({
