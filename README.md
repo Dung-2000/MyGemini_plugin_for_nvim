@@ -1,2 +1,28 @@
 # MyGemini_plugin_for_nvim
-asking Gemini through API_KEY insdie neovim
+asking Gemini through API_KEY inside neovim
+
+# install
+```
+local Gemini = require('Gemini')
+Gemini.setup({
+  api_key = "your way to show api_key"
+})
+```
+
+# How to use
+using visual mode in neovim with 'v'
+and select the code or text you want to pass to Gemini
+press ':' and type 'GeminiAskCode' or type 'Gemin....' and use tab.
+
+also you can concat what ever you want to prompt to Gemini after what you selected
+for example:
+inside """ """ is all pass to Gemini
+"""
+```
+the code I selected
+```
+explain the above code
+"""
+achieve above you can use 
+:GeminiAskCode 'explain the above code'
+by passing other text inside ''
